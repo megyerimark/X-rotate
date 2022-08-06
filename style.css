@@ -1,0 +1,13 @@
+#navMenu>span{
+    display: block;
+    width: 28px;
+    height: 2px;
+    border-radius: 9999px;
+    background-color: red;
+}
+#navMenu> span:not(:last-child){
+    margin-bottom: 7px;
+}
+#navMenu, #navMenu > span {
+    transition: all .4s ease-in-out;
+}
