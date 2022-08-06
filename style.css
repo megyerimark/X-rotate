@@ -11,3 +11,7 @@
 #navMenu, #navMenu > span {
     transition: all .4s ease-in-out;
 }
+#navMenu.active{
+    transition-delay: 0.8s;
+    transform: 45deg;
+}
